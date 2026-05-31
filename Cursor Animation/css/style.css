@@ -1,0 +1,37 @@
+body{
+  cursor: none;
+}
+
+/* main cursor */
+.cursor{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.color{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-self: center;
+}
+.cursor p{
+    display: none;
+    margin: 0;
+}
+.cursor-js{
+    background-color: yellow;
+    width: 40px;
+    height: 40px;  
+}

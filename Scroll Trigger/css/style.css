@@ -1,0 +1,36 @@
+.div1,
+.div2{
+    background-color: papayawhip;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 .box,
+.div2 .box{
+    background-color: red;
+    width: 200px;
+    height:200px;
+}
+.div2{
+    background-color: violet;
+}
+.div2 .box{
+    background-color: blue;
+}
+.text{
+    background-color: yellow;
+    height: 350px;
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.text h1{
+    font-size: 40vw;
+}
+.extra{
+    background-color: aqua;
+    height: 400px;
+}
+
